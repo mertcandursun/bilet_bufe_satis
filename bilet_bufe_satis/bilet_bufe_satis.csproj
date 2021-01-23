@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\Common7\IDE\Resources\biletOnizleme.ico" Link="biletOnizleme.ico" />
+    <None Include="C:\Program Files %28x86%29\Microsoft Visual Studio\2019\Community\Common7\IDE\Resources\biletOnizleme.Icon.ico" Link="biletOnizleme.Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Form1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
