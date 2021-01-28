@@ -112,6 +112,7 @@ namespace bilet_bufe_satis
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label35 = new System.Windows.Forms.Label();
             this.giseKdvlbl = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -807,12 +808,12 @@ namespace bilet_bufe_satis
             this.bufeTutarlbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bufeTutarlbl.Location = new System.Drawing.Point(36, 32);
             this.bufeTutarlbl.Name = "bufeTutarlbl";
-            this.bufeTutarlbl.Size = new System.Drawing.Size(49, 17);
+            this.bufeTutarlbl.Size = new System.Drawing.Size(0, 17);
             this.bufeTutarlbl.TabIndex = 0;
-            this.bufeTutarlbl.Text = "bufetut";
             // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.button2);
             this.groupBox7.Controls.Add(this.label30);
             this.groupBox7.Controls.Add(this.kdvToplbl);
             this.groupBox7.Controls.Add(this.label28);
@@ -840,9 +841,8 @@ namespace bilet_bufe_satis
             this.kdvToplbl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.kdvToplbl.Location = new System.Drawing.Point(35, 40);
             this.kdvToplbl.Name = "kdvToplbl";
-            this.kdvToplbl.Size = new System.Drawing.Size(89, 30);
+            this.kdvToplbl.Size = new System.Drawing.Size(0, 30);
             this.kdvToplbl.TabIndex = 2;
-            this.kdvToplbl.Text = "kdv top";
             // 
             // label28
             // 
@@ -860,9 +860,8 @@ namespace bilet_bufe_satis
             this.topLbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.topLbl.Location = new System.Drawing.Point(68, 18);
             this.topLbl.Name = "topLbl";
-            this.topLbl.Size = new System.Drawing.Size(28, 17);
+            this.topLbl.Size = new System.Drawing.Size(0, 17);
             this.topLbl.TabIndex = 0;
-            this.topLbl.Text = "top";
             // 
             // groupBox8
             // 
@@ -890,9 +889,8 @@ namespace bilet_bufe_satis
             this.bufeKdvlbl.AutoSize = true;
             this.bufeKdvlbl.Location = new System.Drawing.Point(27, 32);
             this.bufeKdvlbl.Name = "bufeKdvlbl";
-            this.bufeKdvlbl.Size = new System.Drawing.Size(50, 17);
+            this.bufeKdvlbl.Size = new System.Drawing.Size(0, 17);
             this.bufeKdvlbl.TabIndex = 0;
-            this.bufeKdvlbl.Text = "label31";
             // 
             // groupBox6
             // 
@@ -921,9 +919,8 @@ namespace bilet_bufe_satis
             this.giseTutarlbl.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.giseTutarlbl.Location = new System.Drawing.Point(42, 29);
             this.giseTutarlbl.Name = "giseTutarlbl";
-            this.giseTutarlbl.Size = new System.Drawing.Size(42, 17);
+            this.giseTutarlbl.Size = new System.Drawing.Size(0, 17);
             this.giseTutarlbl.TabIndex = 0;
-            this.giseTutarlbl.Text = "ticktut";
             // 
             // groupBox9
             // 
@@ -951,9 +948,19 @@ namespace bilet_bufe_satis
             this.giseKdvlbl.AutoSize = true;
             this.giseKdvlbl.Location = new System.Drawing.Point(28, 29);
             this.giseKdvlbl.Name = "giseKdvlbl";
-            this.giseKdvlbl.Size = new System.Drawing.Size(50, 17);
+            this.giseKdvlbl.Size = new System.Drawing.Size(0, 17);
             this.giseKdvlbl.TabIndex = 0;
-            this.giseKdvlbl.Text = "label31";
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Stencil", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(175, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 29);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "R";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Form1
             // 
@@ -1079,6 +1086,7 @@ namespace bilet_bufe_satis
         private System.Windows.Forms.Label giseKdvlbl;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button2;
     }
 }
 

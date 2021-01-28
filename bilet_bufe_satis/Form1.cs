@@ -284,6 +284,7 @@ namespace bilet_bufe_satis
         private void button7_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Lütfen 'göz at' butonu ile konser listesinin bulunduğu 'txt' dosyasını seçin ve ardından 'güncelle' butonuna basınız.");
+            MessageBox.Show("Bilgisayarınızda konser listesi bulunan bir txt dosyası bulunmuyorsa oluşturunuz.");
         }
 
         public void button8_Click(object sender, EventArgs e)
@@ -306,6 +307,15 @@ namespace bilet_bufe_satis
         {
             giseTutarlbl.Text = " ";
             giseKdvlbl.Text = " ";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            kdvToplbl.Text = " ";
+            topLbl.Text = " ";
+            toplamKdv = 0;
+            toplamtut = 0;
+
         }
     }
 }
